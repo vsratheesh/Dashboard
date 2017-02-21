@@ -47,9 +47,47 @@ div#container{
 	margin:0 auto;
 	height: 100%
 }
+
+a.mobile{
+ display: block;
+ color:#fff;
+ background-color: #000;
+ text-align: center;
+ padding: 7px;
+}
+
+a.mobile:active{
+	background-color: #4a4a4a;
+}
+
+@media only screen and (max-width:320px){
+	.sidebar{
+		width: 100%!important ;	
+		display: none;
+	}
+}
+@media only screen and (max-width:320px){
+	.content{
+		margin-left: 0px!important;
+	}
+}
+
+@media only screen and (min-width:320px){
+	a.mobile{
+		display: none;
+	}
+	.sidebar{
+		height: 100%;
+		display: block;
+	}
+
+
+}
+
+/*SIDEBAR*/
 .sidebar{
 	width:250px;
-	height: 100%;
+	/*height: 100%;*/
 	background-color: #0e121b;
 	float: left;
 }
@@ -66,7 +104,7 @@ ul#nav li a{
 	color :#ccc;
 	display: block;
 	padding: 10px;
-	font-size: 0.8em;
+	font-size: 1em;
 	border-bottom: 1px solid #0a0a0a;
 	-webkit-transition:0.2s;
 	-moz-transition:0.2s;
@@ -80,10 +118,17 @@ ul#nav li a:hover {
 	padding-left: 15px;
 }
 
+
+
+/*CONTENT-BOX*/
 .content{
 	width: auto;
 	margin-left: 250px;
 	height: 100%;
-	background-color:#fff;
-	padding: 15px;
+	background-color:#95a5a6;
+	padding: 20px;
+}
+.content p{
+	color:#424242;
+	font-size: 1em;
 }
