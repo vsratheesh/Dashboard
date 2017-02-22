@@ -1,4 +1,5 @@
 $(document).ready(function(){
+//Menu -- sliderToggle	
 	$('a.mobile').click(function(){
 		$('.sidebar').slideToggle('fast')
 	});
@@ -8,4 +9,7 @@ $(document).ready(function(){
 			$(".sidebar").show();
 		}
 	};
+
+
+
 });

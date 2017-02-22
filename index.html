@@ -2,40 +2,63 @@
 <html>
 <head>
 	<title>Cv CORP</title>
+	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable= 0">
+	<!-- Bootstrap-CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<!-- Script-->
 	<script type="text/javascript" src="scripts/main.js"></script>
 </head>
 <body>
+<!-- header -->
 <div id="header">
 	<div class="logo">
 	<a href="#">CV <span>Corp</span> </a>
 	</div>
 </div>
-<!-- header -->
-
+<!-- Menu-Toggle -->
 <a class="mobile" href="#">Menu</a>
-
+<!-- Container -->
 <div id="container">
+<!-- Sidebar Menu -->
 <div class="sidebar">
 	<ul id="nav">
 	<li><a href="#">Home</a></li>
-	<li><a href="#">Employee Moniter</a></li>
+
+	<li><a href="#" data-toggle="collapse" data-target="#submenu-1"><span class="fa fa-database"></span> Employee Moniter<span class="fa fa-fw fa-caret-down"></span></a>
+	<ul id="submenu-1" class="collapse">
+	<li><a href="#">Employee Working Days</a></li>
+	<li><a href="#">Employee Timings</a></li>
+	<li><a href="#">Employees</a></li>
+	</ul>
+	</li> 
+
 	<li><a href="#">Pay Calculation</a></li>
 	<li><a href="#">Reminder</a></li>
 	<li><a href="#">Attendance/Leaves</a></li>
 	<li><a href="#">My Month</a></li>
-	<li><a href="#">Manage Employee</a></li>
+	
+	<li><a href="#" data-toggle="collapse" data-target="#submenu-2"><span class="fa fa-database"></span> Manage Employee<span class="fa fa-fw fa-caret-down"></span></a>
+	<ul id="submenu-2" class="collapse">
+	<li><a href="#">Add Employee</a></li>
+	<li><a href="#">Modify Employees</a></li>
+	<li><a href="#">View Employees</a></li>
+	</ul>
+	</li>
 
-		
 	</ul>
 </div>
+<!-- Content-Box -->
 <div class="content">
 	<p>Content Box inside container with width auto.</p>
 </div>
 	
-</div>
+</div> <!-- Container-->
 
 </body>
 </html>

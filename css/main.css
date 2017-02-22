@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700" rel="stylesheet");
-
+/*---Global---*/
 *{
 	margin: 0;
 	padding: 0;
@@ -15,7 +15,7 @@ a{
 	text-decoration: none;
 }
 
-/*HEADER*/
+/*---HEADER---*/
 
 div#header{
 	width: 100%;
@@ -41,12 +41,14 @@ div#header{
 }
 
 
-/*container*/
+/*---container---*/
 div#container{
 	width: 100%
 	margin:0 auto;
 	height: 100%
 }
+
+/*---Menu toggle---*/
 
 a.mobile{
  display: block;
@@ -59,6 +61,8 @@ a.mobile{
 a.mobile:active{
 	background-color: #4a4a4a;
 }
+
+/*---MediaQuery---*/
 
 @media only screen and (max-width:320px){
 	.sidebar{
@@ -84,7 +88,7 @@ a.mobile:active{
 
 }
 
-/*SIDEBAR*/
+/*---SIDEBAR---*/
 .sidebar{
 	width:250px;
 	/*height: 100%;*/
@@ -98,7 +102,8 @@ ul#nav{
 
 ul#nav li{
 	list-style: none;
-}
+/*	position: relative;
+*/}
 
 ul#nav li a{
 	color :#ccc;
@@ -118,9 +123,7 @@ ul#nav li a:hover {
 	padding-left: 15px;
 }
 
-
-
-/*CONTENT-BOX*/
+/*---CONTENT-BOX---*/
 .content{
 	width: auto;
 	margin-left: 250px;
