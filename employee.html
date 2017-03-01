@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cv CORP</title>
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable= 0">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Bootstrap-CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<!-- Script-->
+	<script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body>
+<!-- header -->
+<div id="header">
+	<div class="logo">
+	<a href="#">CV <span>Corp</span> </a>
+	</div>
+</div>
+<!-- Menu-Toggle -->
+<a class="mobile" href="#">Menu</a>
+<!-- Container -->
+<div id="container">
+<!-- Sidebar Menu -->
+<div class="sidebar">
+	<ul id="nav">
+
+	<li id="profile"> <!--Profile-pic-->
+	<figure class="profile-userpic">
+	<img src="http://www.lovemarks.com/wp-content/uploads/profile-avatars/default-avatar-tech-guy.png" class="img-responsive" alt="Profile Picture">
+	</figure>
+	<div class="profile-usertitle">
+	<div class="profile-usertitle-name">That Person</div>
+	<div class="profile-usertitle-title">Administrator</div>
+	</div>
+	</li>
+
+	<hr id="line">
+
+	<li><a href="#">Home</a></li>
+
+	<li><a href="#" data-toggle="collapse" data-target="#submenu-1">Employee Moniter<span class="fa fa-fw fa-caret-down"></span></a>
+	<ul id="submenu-1" class="collapse menu">
+	<li><a href="#">Employee Working Days</a></li>
+	<li><a href="#">Employee Timings</a></li>
+	<li><a href="#">Employees</a></li>
+	</ul>
+	</li> 
+
+	<li><a href="#">Pay Calculation</a></li>
+	<li><a href="#">Reminder</a></li>
+	<li><a href="#">Attendance/Leaves</a></li>
+	<li><a href="#">My Month</a></li>
+	
+	<li><a href="#" data-toggle="collapse" data-target="#submenu-2">Manage Employee<span class="fa fa-fw fa-caret-down"></span></a>
+	<ul id="submenu-2" class="collapse menu">
+	<li><a href="#">Add Employee</a></li>
+	<li><a href="#">Modify Employees</a></li>
+	<li><a href="#">View Employees</a></li>
+	</ul>
+	</li>
+
+	</ul>
+</div>
+<!-- Content-Box -->
+<div class="content">
+
+<!-- Employment form -->
+	<div class="row">
+ <div class="col-md-8 formfield">
+        			<legend>Add Employee</legend>
+        <div class="well well-sm">
+
+          <form class="form-horizontal" action="" method="post">
+			
+			<fieldset class="field">
+
+			<h3>Personal information :</h3>
+
+			<br>
+
+			<!-- Name input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">First Name :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="First-name" class="form-control">
+			</div>
+			</div>
+
+			<!-- Name input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Last Name :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="Last-name" class="form-control">
+			</div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="textinput"> ID : </label>  
+			<div class="col-md-8 control-box">
+			<input id="textinput" name="textinput" type="number" placeholder="ID" class="form-control input-md">
+
+			</div>
+			</div>
+
+			<!-- Multiple Radios (inline) -->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="radios">Gender :</label>
+			<div class="col-md-8 control-box"> 
+			<label class="radio-inline" for="radios-0">
+			<input type="radio" name="radios" id="radios-0" value="Male" checked="checked">
+			Male
+			</label> 
+			<label class="radio-inline" for="radios-1">
+			<input type="radio" name="radios" id="radios-1" value="Female">
+			Female
+			</label>
+			</div>
+			</div>
+
+			<!-- Select Basic -->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Father Name :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="First-name" class="form-control">
+			</div>
+			</div>
+			
+			<!-- Select Basic -->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Mother Name :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="First-name" class="form-control">
+			</div>
+			</div>
+
+			<!-- Select Basic -->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="selectbasic">marital status :</label>
+			<div class="col-md-8 control-box">
+			<select id="selectbasic" name="selectbasic" placeholder="" class="form-control">
+			<option value="0"></option>
+			<option value="1">un-married</option>
+			<option value="2">married</option>
+			</select>
+			</div>
+			</div>
+
+			<!-- Select Basic -->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="selectbasic">Blood-group :</label>
+			<div class="col-md-8 control-box">
+			<select id="selectbasic" name="selectbasic" placeholder="" class="form-control">
+			<option>choose one</option>
+			<option>A+ve</option>
+			<option>A-ve</option>
+			<option>B+ve</option>
+			<option>B-ve</option>
+			<option>AB+ve</option>
+			<option>AB-ve</option>
+			<option>O+ve</option>
+			<option>O-ve</option>
+			</select>
+			</div>
+			</div>
+			
+
+			<!-- Email input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="email">Personal E-mail :</label>
+			<div class="col-md-8 control-box">
+			<input id="email" name="email" type="text" placeholder="Personal email" class="form-control">
+			</div>
+			</div>
+
+			<!-- Email input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="email">Official E-mail :</label>
+			<div class="col-md-8 control-box">
+			<input id="email" name="email" type="text" placeholder="Official email" class="form-control">
+			</div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="textinput">Mobile : </label>  
+			<div class="col-md-8 control-box">
+			<input id="textinput" name="textinput" type="number" placeholder="" class="form-control input-md">
+			</div>
+			</div>
+
+			<!-- Select Date -->
+			<div class="form-group">
+			<label class="control-label col-md-4" for="registration-date">Actual DOB :</label>
+			<div class="col-md-8 control-box">
+            <input type="date" class="form-control" id="" placeholder="">
+    		</div>  
+			</div>
+
+			<!-- Select Date -->
+			<div class="form-group">
+			<label class="control-label col-md-4" for="registration-date">Registered DOB :</label>
+			<div class="col-md-8 control-box">
+            <input type="date" class="form-control" id="" placeholder="">
+    		</div>  
+			</div>
+
+
+			<!-- Text input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="textinput">Salary :</label>  
+			<div class="col-md-8 control-box">
+			<input id="textinput" name="textinput" type="number" placeholder="" class="form-control input-md">
+			</div>
+			</div>
+
+			<!-- Name input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Yr. of experience :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="" class="form-control">
+			</div>
+			</div>
+
+			<!-- Name input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Department :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="" class="form-control">
+			</div>
+			</div>
+
+			<!-- Name input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Designation :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="" class="form-control">
+			</div>
+			</div>
+
+			<!-- Name input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Reporting Manager :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="" class="form-control">
+			</div>
+			</div>
+
+			<!-- Text input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="textinput">Emergency No :</label>  
+			<div class="col-md-8 control-box">
+			<input id="textinput" name="textinput" type="number" placeholder="" class="form-control input-md">
+			</div>
+			</div>
+
+
+			<!-- Select Date -->
+			<div class="form-group">
+			<label class="control-label col-md-4" for="registration-date">Join date :</label>
+			<div class="col-md-8 control-box">
+            <input type="date" class="form-control" id="" placeholder="">
+    		</div>  
+			</div>
+
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="textinput">PAN Card No :</label>  
+			<div class="col-md-8 control-box">
+			<input id="textinput" name="textinput" type="number" placeholder="" class="form-control input-md">
+			</div>
+			</div>
+
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="textinput">Bank A/C :</label>  
+			<div class="col-md-8 control-box">
+			<input id="textinput" name="textinput" type="number" placeholder="" class="form-control input-md">
+			</div>
+			</div>
+
+			<br>
+
+			<h3>Address :</h3>
+
+			<br>
+
+			<!-- Textarea -->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="textarea">Contact address :</label>
+			<div class="col-md-8 control-box">                     
+			<textarea class="form-control" id="textarea" name="textarea"></textarea>
+			</div>
+			</div>
+
+
+			<!-- location input-->
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Locality :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="Locality" class="form-control">
+			</div>
+			</div>
+
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">City :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="City" class="form-control">
+			</div>
+			</div>
+
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">State :</label>
+			<div class="col-md-8 control-box">
+			<input id="name" name="name" type="text" placeholder="State" class="form-control">
+			</div>
+			</div>
+
+			<div class="form-group">
+			<label class="col-md-4 control-label" for="name">Pincode :</label>
+			<div class="col-md-8 control-box">
+			<input id="name"  type="number" placeholder="" class="form-control">
+			</div>
+			</div>
+
+
+			<!-- Form actions -->
+			<div class="form-group">
+			<div class="col-md-12 text-right" style="margin-left: inherit;">
+			<button type="submit" class="btn btn-primary btn-lg">Submit</button>
+			</div>
+			</div>
+
+
+			</fieldset>
+          </form>
+        </div>
+	
+	</div>
+
+
+	</div>
+
+ 
+	
+        
+</div>
+</div> <!-- Container-->
+<footer>
+	copyrights
+</footer>
+
+
+
+</body>
+</html>

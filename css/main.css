@@ -217,7 +217,7 @@ footer {
 
 
 /*---Set-Reminder---*/
-.set{
+/*.set{
 margin: 10%;
 }
 
@@ -249,6 +249,58 @@ font-size: 150%;
     border: 1px solid black;
     margin: 6px;
 }
+*/
 
+/*Employement-form*/
+.form {
+	max-width:650px;
+	padding:30px 30px ;
+	background-color:white;
+	border:10px;
+	border-radius:10px;
 
- 
+}
+.addemployee{ 
+	margin-top:20px;
+}
+
+.control-label{
+ 	font-weight: 100;
+ }
+
+.control-box{
+ 	float: right;
+ }
+
+.formfield{
+	max-width: 650px;
+    padding: 30px 30px;
+    background-color: white;
+    border: 10px;
+    border-radius: 10px;
+    width: 65%;
+    margin: 20px auto;
+}
+
+legend{
+    font-size: 20px!important;
+    font-style: normal;
+    font-weight: bold !important;
+    text-align: center !important;
+    width: auto;
+    padding: 0 10px!important;
+    border-bottom: none!important;
+    margin: 0px!important;
+    color: black;
+}
+
+.well{
+	color: black; 
+	background-color: white; 
+	padding: 22px; 
+	border: 1px solid #000;
+ }
+
+ .form-group {
+    display: flex;
+}
